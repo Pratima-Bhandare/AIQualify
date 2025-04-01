@@ -77,7 +77,6 @@ export default function Page() {
               /></td>
             </tr>
 
-                
             {/* Contact field */}
             {!isLogin && (
             <tr>
