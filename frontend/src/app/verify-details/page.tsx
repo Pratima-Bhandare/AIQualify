@@ -24,7 +24,7 @@ export default function VerifyDetails() {
                         <td className='py-3'><input type="mobile" id="mobile" name="mobile" className='w-[90%] p-2 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500' required /></td>
                     </tr>
                     <tr>
-                        <td colSpan="2" className='py-3 text-center'>
+                        <td className='py-3 text-center' colSpan={2}>
                             <button type="submit" className='mb-5 px-7 py-3 bg-blue-800 font-semibold text-white rounded-md hover:bg-blue-900 cursor-pointer'>Verify</button>
                         </td>
                     </tr>
